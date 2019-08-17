@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/open"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="OPEN" />
+
+    <Button
+        android:id="@+id/visible"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Visible" />
+
+    <Button
+        android:id="@+id/discover"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Discover" />
+
+    <Button
+        android:id="@+id/off"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="OFF" />
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>
